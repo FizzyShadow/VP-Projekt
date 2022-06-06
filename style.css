@@ -5,6 +5,7 @@ body{
 
 .titleG{
     position: absolute;
+    color: #5C5558;
     left: 800px
 }
 
@@ -79,4 +80,19 @@ text-align: right;
 
 td {
 padding-left: 10px;   
+}
+
+select {
+  position: absolute;
+  left: 650px;
+  top: 260px;
+  display: grid;
+  background-color: transparent;
+  padding: 0 1em 0 0;
+  margin: 0;
+  width: 10%;
+  font-family: inherit;
+  font-size: inherit;
+  cursor: inherit;
+  line-height: inherit;
 }
