@@ -1,0 +1,82 @@
+
+body{
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  }
+
+.titleG{
+    position: absolute;
+    left: 800px
+}
+
+#pieChart {    
+position:absolute;
+top:200px;
+left:50px;
+width:400px;
+height: 400px; 
+}
+
+#barChart {
+position:absolute;
+top: 300px;
+left: 600px;
+height: 600px;
+}
+
+.slice {
+ font-size: 12pt;
+ fill: white;
+ font-weight: bold; 
+} 
+
+.axis path, .axis line {
+  fill: none;
+  stroke: black;
+  shape-rendering: crispEdges;
+}
+
+.axis text {
+  font-size: 11px;
+}
+
+.title {
+  font-size: 15px;  
+}
+
+.xAxis {
+  font-size: 11px;
+  font-weight: bold; 
+  fill: black;
+}  
+
+.yAxis {
+  font-size: 11px;
+  font-weight: bold; 
+  fill: black;
+}
+
+div.tooltip { 
+  position: absolute;     
+  text-align: center;     
+  width: 150px;          
+  height: 35px;         
+  padding: 2px;       
+  font: 13px sans-serif;
+  font-weight: bold;    
+  background: lightsteelblue; 
+  border: 0px;    
+  border-radius: 8px;     
+  pointer-events: none;     
+}
+
+table {
+border-collapse:collapse;
+border: 0px;  
+color: #5C5558;
+font-size: 12px;
+text-align: right;      
+}
+
+td {
+padding-left: 10px;   
+}
