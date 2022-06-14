@@ -209,7 +209,7 @@ function dsPieChart(){
 
 // SORT DATA
 
-function datasetBarChosen(Genre, year) {
+function dsPieSlice(Genre, year) {
   var ds = [];
   if(year == 0 && Genre == 'All'){
     ds = vgsalesData;
@@ -295,7 +295,7 @@ function dsBarChartBasics() {
 
 function dsBarChart() {
 
-  var firstDatasetBarChart = datasetBarChosen(Genre, year);  
+  var firstDatasetBarChart = dsPieSlice(Genre, year);  
   var dataSales = sortPlatformSales(firstDatasetBarChart);         
   var basics = dsBarChartBasics();
 
@@ -399,7 +399,7 @@ function dsBarChart() {
 
 function dsBarChart2() {
 
-var firstDatasetBarChart = datasetBarChosen(Genre, year);  
+var firstDatasetBarChart = dsPieSlice(Genre, year);  
 var dataSales = sortPublisherSales(firstDatasetBarChart);         
 var basics = dsBarChartBasics();
 
@@ -498,7 +498,7 @@ setTimeout(function() {
 
 function updateBarChart(Genre, colorChosen) {
   
-  var currentDatasetBarChart = datasetBarChosen(Genre, year);
+  var currentDatasetBarChart = dsPieSlice(Genre, year);
   var dataSales = sortPlatformSales(currentDatasetBarChart); 
   var basics = dsBarChartBasics();
 
@@ -572,7 +572,7 @@ function updateBarChart(Genre, colorChosen) {
 
 function updateBarChart2(Genre, colorChosen) {
   
-  var currentDatasetBarChart = datasetBarChosen(Genre, year);
+  var currentDatasetBarChart = dsPieSlice(Genre, year);
   var dataSales = sortPublisherSales(currentDatasetBarChart); 
   var basics = dsBarChartBasics();
 
